@@ -14,7 +14,7 @@ Asegúrate de que tu archivo .py esté completo y funcione correctamente.
 Convertir el archivo a .exe
 Ejecuta el siguiente comando en la terminal desde la carpeta donde se encuentra tu archivo .py:
 
-pyinstaller --onefile tu_archivo.py
+    pyinstaller --onefile tu_archivo.py
 
 --onefile: Genera un único archivo ejecutable .exe.
 Puedes añadir --noconsole si no quieres que se abra la consola al ejecutar el .exe:
