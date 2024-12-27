@@ -34,7 +34,7 @@ try:
             completed_turns += 1
             angle = 0
             # Realizar un clic al completar una vuelta
-            #pyautogui.click()
+            # pyautogui.click()
         # Verificar si se ha presionado Ctrl + C para detener el proceso
         if keyboard.is_pressed('ctrl+c'):
             raise KeyboardInterrupt
